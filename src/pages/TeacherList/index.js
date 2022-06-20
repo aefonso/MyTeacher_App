@@ -3,6 +3,8 @@ import { View } from 'react-native';
 
 export default function TeacherList() {
  return (
-   <View/>
+   <View>
+        <Text>Lista Professores</Text>
+   </View>
   );
 }
