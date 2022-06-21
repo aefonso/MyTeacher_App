@@ -1,5 +1,5 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack'
-
+import React from "react"
 import Welcome from '../pages/Welcome'
 import CourseList from '../pages/CourseList'
 import TeacherList from '../pages/TeacherList'
