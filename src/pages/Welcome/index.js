@@ -23,7 +23,7 @@ export default function Welcome() {
       <Text style={styles.title}> Myteacher, conheça seus professores! </Text>
       <Text style={styles.text}>Acesse para saber mais </Text>
 
-      <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('AboutTeacher')}>
+      <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('CourseList')}>
         <Text style={styles.buttonText}>Acessar</Text>
       </TouchableOpacity>
     </Animatable.View>
