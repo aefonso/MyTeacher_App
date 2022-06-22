@@ -3,7 +3,10 @@ import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-nativ
 
 import * as Animatable from'react-native-animatable';
 
+import { useNavigation } from '@react-navigation/native';
+
 export default function CourseList() {
+  const navigation = useNavigation();
  return (
 <View style={styles.container}>
        <Animatable.View animation="fadeInLeft" delay={500} style={styles.containerHeader}>
@@ -12,8 +15,25 @@ export default function CourseList() {
 
        <Animatable.View animation="fadeInUp" style={styles.containerForm}>
         <Text style={styles.title}>Lista Cursos</Text>
+        <View style={styles.box}>
         <View style={styles.card}>
-            <Text>Myteacher</Text>
+            <Text style={styles.tittleCourse}>P. Dispositivos Móveis</Text>
+            <Text style={styles.tittleCourse}>SI - 2022.1</Text>
+
+            <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('TeacherList')}>
+              <Text style={styles.buttonText}>Saiba mais </Text>
+            </TouchableOpacity>
+        </View>
+        </View>
+         <View style={styles.box}>
+        <View style={styles.card}>
+            <Text style={styles.tittleCourse}>Teste de Software</Text>
+            <Text style={styles.tittleCourse}>SI - 2022.1</Text>
+            
+            <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('TeacherList')}>
+              <Text style={styles.buttonText}>Saiba mais</Text>
+            </TouchableOpacity>
+        </View>
         </View>
        </Animatable.View>
    </View>  
@@ -49,36 +69,39 @@ const styles = StyleSheet.create({
       marginTop: 28,
       textAlign: 'center',
     },
+    tittleCourse:{
+      fontSize: 25,
+      margin: 2,
+      textAlign: 'center',
+      fontWeight: 'bold'
+    },
     button:{
-      backgroundColor: '#21AEE4',
-      width: '100%',
+      backgroundColor: '#fff',
+      width: '80%',
       borderRadius: 4,
       paddingVertical: 4,
-      marginTop: 14,
+      marginTop: 60,
       justifyContent: 'center',
-      alignItems: 'center',
+      alignItems: 'center'
     },
-    buttonText:{
-      color:'#fff',
-      fontSize: 18,
-      fontWeight: 'bold',
+    buttonText: {
+      color: '#21AEE4',
+      fontSize: 15,
+      fontWeight: 'bold'
+    },
+    box: {
+      marginTop: 15,
+      width: '100%',
+      height: '45%',
+      padding: 5,
+      flex: 1
     },
     card: {
-        display: "flex",
-        flexDirection: "column",
-        position: "absolute",
-        top: 114,
-        none: 0,
-        marginLeft: 20,
-        paddingTop: 10,
-        paddingLeft: 40,
-        borderRadius: 20,
-        backgroundColor: '#21AEE4',
-        backdropFilter: "blur(4px)",
-        width: 150,
-        height: 190,
+      flex: 1,
+      borderRadius: 20,
+      backgroundColor: '#21AEE4',
+      alignItems: 'center',
+      justifyContent: 'center',
       },
-  
-
-
+      
 })
