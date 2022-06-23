@@ -20,7 +20,7 @@ export default function TeacherList() {
         <Image
                 style={styles.ImgAvatar}
                 source={{
-                  uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/dghoqn1xyis-26%3A16?alt=media&token=56784dc8-23cb-40d3-8276-56e1f8b3b6f0",
+                  uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/cy5hoftk34h-39%3A7?alt=media&token=a27d6e28-971f-4ef5-9d38-7f78f9affe73",
                 }}
               />
               <Text style={styles.titleTeacher}>Bruno Gomes</Text>
