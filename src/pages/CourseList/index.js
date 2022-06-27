@@ -10,7 +10,7 @@ export default function CourseList() {
  return (
 <View style={styles.container}>
        <Animatable.View animation="fadeInLeft" delay={500} style={styles.containerHeader}>
-         <Text style={styles.message}>Myteacher</Text>
+         <Text style={styles.message}>MyTeacher</Text>
        </Animatable.View>
 
        <Animatable.View animation="fadeInUp" style={styles.containerForm}>
