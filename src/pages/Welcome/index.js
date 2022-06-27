@@ -21,8 +21,11 @@ export default function Welcome() {
     
     <Animatable.View delay={600} animation="fadeInUp" style={styles.containerForm}>
       <Text style={styles.title}> MyTeacher, Conheça seus professores! </Text>
+      
+      <TouchableOpacity onPress={ () => navigation.navigate('AboutStudents')}>
       <Text style={styles.text}>Acesse para saber mais </Text>
-
+      </TouchableOpacity>
+      
       <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('CourseList')}>
         <Text style={styles.buttonText}>Acessar</Text>
       </TouchableOpacity>
