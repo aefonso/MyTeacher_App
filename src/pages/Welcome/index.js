@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
   },
   text:{
     color: '#a1a1a1',
+    textDecorationLine: 'underline',
   },
   button:{
     position: 'absolute',
