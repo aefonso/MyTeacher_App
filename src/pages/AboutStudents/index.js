@@ -17,13 +17,19 @@ export default function About() {
         </Animatable.View>
         <Animatable.View animation="fadeInUp" style={styles.Iphone1313Pro29}>
         <Text style={styles.Txt542}> Alunos, lindos !!</Text>
+        
         <Text style={styles.Txt124}>
+        O MyTeacher é uma aplicativo onde busca facilitar a vida dos alunos do IFRN, onde seu principal objetivo é ter uma descrição das áreas de conhecimentos e os professores que fazem parte de cada uma.
+Assim um aluno pode buscar pelo professor que tem atuação na area de conhecimento a qual o aluno busca se desenvolver.
+        </Text>
+        
+        <Text style={styles.Txt125}>
           Afonso Henrique 
         </Text>
-        <Text style={styles.Txt124}>
+        <Text style={styles.Txt125}>
          Carla Monik
         </Text>
-        <Text style={styles.Txt124}>
+        <Text style={styles.Txt125}>
           Rafael Ribeiro
         </Text>
       
@@ -68,4 +74,11 @@ const styles = StyleSheet.create({
     textAlign: 'justify'
   },
   
+  Txt125: {
+    fontSize: 20,
+    marginBottom: 15,
+    textAlign: 'justify',
+    fontWeight: 'bold',
+  },
+
 })
