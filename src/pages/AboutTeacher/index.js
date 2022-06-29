@@ -18,16 +18,12 @@ export default function About() {
         <Animatable.View animation="fadeInUp" style={styles.Iphone1313Pro29}>
         <Text style={styles.Txt542}> Bruno Gomes, o lindo !!</Text>
         <Text style={styles.Txt124}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-          dignissim sit volutpat sed augue quis.
-        </Text>
-        <Text style={styles.Txt124}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-          dignissim sit volutpat sed augue quis.
-        </Text>
-        <Text style={styles.Txt124}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-          dignissim sit volutpat sed augue quis.
+        Professor de Sistemas de Informação do IFRN, Doutor em Engenharia Elétrica e 
+        da Computação pela UFRN, Tecnólogo em Desenvolvimento de Software pelo IFRN, 
+        Editor-Chefe da Revista Brasileira de Inovação Tecnológica em Saúde (R-BITS), 
+        Coordenador do Núcleo de Inovação em Computação (NICOM - IFRN/CANG) e Pesquisador 
+        do Laboratório de Inovação Tecnológica em Saúde 
+        (LAIS - HUOL - UFRN) e do Núcleo Avançado de Inovação Tecnológica (NAVI/IFRN).
         </Text>
       
       </Animatable.View>
