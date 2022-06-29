@@ -15,7 +15,7 @@ export default function About() {
           }}
         />
         </Animatable.View>
-        <Animatable.View animation="fadeInUp" style={styles.Iphone1313Pro29}>
+        <Animatable.View animation="fadeInUp" style={styles.header}>
         <Text style={styles.Txt542}> Alunos, lindos !!</Text>
         
         <Text style={styles.Txt124}>
@@ -39,7 +39,7 @@ Assim um aluno pode buscar pelo professor que tem atuação na area de conhecime
 }
 
 const styles = StyleSheet.create({
-  Iphone1313Pro29: {
+ header: {
     backgroundColor: '#FAF8F8',
     flex: 1,
     borderTopLeftRadius: 25,
@@ -79,6 +79,8 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     textAlign: 'justify',
     fontWeight: 'bold',
+    marginTop: 20,
+    textTransform: 'uppercase'
   },
 
 })

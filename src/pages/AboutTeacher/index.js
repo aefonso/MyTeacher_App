@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 25,
     paddingStart: '5%',
     paddingEnd: '5%',
+
   },
   Group989: {
     backgroundColor: '#21AEE4',
@@ -59,12 +60,13 @@ const styles = StyleSheet.create({
     textTransform: "uppercase",
     textAlign: 'center',
     fontWeight: 'bold',
-    marginBottom: 8
+    marginBottom: 8,
   },
   Txt124: {
     fontSize: 17,
     marginBottom: 15,
-    textAlign: 'justify'
+    textAlign: 'justify',
+    marginTop: 50,
   },
   
 })
