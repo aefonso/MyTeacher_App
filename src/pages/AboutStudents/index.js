@@ -16,7 +16,7 @@ export default function About() {
         />
         </Animatable.View>
         <Animatable.View animation="fadeInUp" style={styles.header}>
-        <Text style={styles.Txt542}> Alunos, lindos !!</Text>
+        <Text style={styles.Txt542}> Alunos, lindos!!</Text>
         
         <Text style={styles.Txt124}>
         O MyTeacher é uma aplicativo onde busca facilitar a vida dos alunos do IFRN, onde seu principal objetivo é ter uma descrição das áreas de conhecimentos e os professores que fazem parte de cada uma.

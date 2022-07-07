@@ -1,5 +1,5 @@
 import React from "react"
-import { StyleSheet, Image, Text, View, ImageBackground } from "react-native"
+import { StyleSheet, Image, Text, View } from "react-native"
 
 import * as Animatable from'react-native-animatable';
 
@@ -16,7 +16,7 @@ export default function About() {
         />
         </Animatable.View>
         <Animatable.View animation="fadeInUp" style={styles.Iphone1313Pro29}>
-        <Text style={styles.Txt542}> Bruno Gomes, o lindo !!</Text>
+        <Text style={styles.Txt542}> Bruno Gomes, o lindo!!</Text>
         <Text style={styles.Txt124}>
         Professor de Sistemas de Informação do IFRN, Doutor em Engenharia Elétrica e 
         da Computação pela UFRN, Tecnólogo em Desenvolvimento de Software pelo IFRN, 
