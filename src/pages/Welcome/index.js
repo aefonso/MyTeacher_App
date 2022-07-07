@@ -16,18 +16,19 @@ export default function Welcome() {
           source={require('../../assets/logo.png')}
           style={{ width: '100%' }}
           resizeMode="contain"
+          testID="Logo"
         />
       </View>
     
     <Animatable.View delay={600} animation="fadeInUp" style={styles.containerForm}>
-      <Text style={styles.title}> MyTeacher, Conheça seus professores! </Text>
+      <Text style={styles.title} testID="Titulo"> MyTeacher, Conheça seus professores! </Text>
       
       <TouchableOpacity onPress={ () => navigation.navigate('AboutStudents')}>
-      <Text style={styles.text}>Acesse para saber mais </Text>
+      <Text style={styles.text} testID="btnTituloAcessarParaSaberMais">Acesse para saber mais </Text>
       </TouchableOpacity>
       
       <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('CourseList')}>
-        <Text style={styles.buttonText}>Acessar</Text>
+        <Text style={styles.buttonText} testID="btnAcessar">Acessar</Text>
       </TouchableOpacity>
     </Animatable.View>
    </View>  
