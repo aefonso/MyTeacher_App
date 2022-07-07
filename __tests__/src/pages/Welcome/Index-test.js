@@ -19,7 +19,7 @@ describe('Testes de Navegação', () => {
 
       const botaoTituloAcessarParaSaberMais = (getByTestId("btnTituloAcessarParaSaberMais"));
       fireEvent.press(botaoTituloAcessarParaSaberMais);
-      expect(getByText(" Alunos, lindos !!")).toBeTruthy();
+      expect(getByText(" Alunos, lindos!!")).toBeTruthy();
       
       const botao = (getByTestId("btnAcessar"));
       fireEvent.press(botao);
