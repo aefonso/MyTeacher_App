@@ -10,11 +10,11 @@ export default function TeacherList() {
   return (
     <View style={styles.container}>
       <Animatable.View animation="fadeInLeft" delay={500} style={styles.containerHeader}>
-         <Text style={styles.message}>MyTeacher</Text>
+         <Text style={styles.message} testID="TituloTeacherList">MyTeacher</Text>
        </Animatable.View>
        
        <Animatable.View animation="fadeInUp" style={styles.containerForm}>
-        <Text style={styles.title}>Lista Professores</Text>
+        <Text style={styles.title} testID="ListProfessores">Lista Professores</Text>
         <View style={styles.box}>
         <View style={styles.card}>
         <Image
@@ -24,7 +24,7 @@ export default function TeacherList() {
                 }}
               />
               <Text style={styles.titleTeacher}>Bruno Gomes</Text>
-            <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('AboutTeacher')}>
+            <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('AboutTeacher')} testID="btnAboutTeacher">
               <Text style={styles.buttonText}>Saiba mais</Text>
             </TouchableOpacity>
         </View>
