@@ -13,11 +13,12 @@ export default function About() {
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/cy5hoftk34h-39%3A7?alt=media&token=a27d6e28-971f-4ef5-9d38-7f78f9affe73",
           }}
+          testID="imageTeacher1"
         />
         </Animatable.View>
         <Animatable.View animation="fadeInUp" style={styles.Iphone1313Pro29}>
-        <Text style={styles.Txt542}> Bruno Gomes, o lindo!!</Text>
-        <Text style={styles.Txt124}>
+        <Text style={styles.Txt542} testID="nameTeacher"> Bruno Gomes, o lindo!!</Text>
+        <Text style={styles.Txt124} testID="descriptionTeacher">
         Professor de Sistemas de Informação do IFRN, Doutor em Engenharia Elétrica e 
         da Computação pela UFRN, Tecnólogo em Desenvolvimento de Software pelo IFRN, 
         Editor-Chefe da Revista Brasileira de Inovação Tecnológica em Saúde (R-BITS), 
