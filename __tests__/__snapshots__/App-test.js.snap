@@ -38,7 +38,6 @@ exports[`Teste de Snapshot Snapshot de App 1`] = `
           "top": 0,
         }
       }
-      swipeDirection="horizontal"
     >
       <RNSScreenStackHeaderConfig
         backButtonInCustomView={false}
@@ -157,6 +156,7 @@ exports[`Teste de Snapshot Snapshot de App 1`] = `
                   "opacity": 1,
                 }
               }
+              testID="btnTituloAcessarParaSaberMais"
             >
               <Text
                 style={
@@ -165,7 +165,6 @@ exports[`Teste de Snapshot Snapshot de App 1`] = `
                     "textDecorationLine": "underline",
                   }
                 }
-                testID="btnTituloAcessarParaSaberMais"
               >
                 Acesse para saber mais 
               </Text>
@@ -195,6 +194,7 @@ exports[`Teste de Snapshot Snapshot de App 1`] = `
                   "width": "60%",
                 }
               }
+              testID="btnAcessar"
             >
               <Text
                 style={
@@ -204,7 +204,6 @@ exports[`Teste de Snapshot Snapshot de App 1`] = `
                     "fontWeight": "bold",
                   }
                 }
-                testID="btnAcessar"
               >
                 Acessar
               </Text>

@@ -10,28 +10,28 @@ export default function CourseList() {
  return (
 <View style={styles.container}>
        <Animatable.View animation="fadeInLeft" delay={500} style={styles.containerHeader}>
-         <Text style={styles.message}>MyTeacher</Text>
+         <Text style={styles.message} testID="TituloMyteacher2">MyTeacher</Text>
        </Animatable.View>
 
        <Animatable.View animation="fadeInUp" style={styles.containerForm}>
-        <Text style={styles.title}>Lista Cursos</Text>
+        <Text style={styles.title} testID="TituloListaCursos">Lista Cursos</Text>
         <View style={styles.box}>
         <View style={styles.card}>
-            <Text style={styles.tittleCourse}>P. Dispositivos Móveis</Text>
-            <Text style={styles.tittleCourse}>SI - 2022.1</Text>
+            <Text style={styles.tittleCourse} testID="TituloDispositosMoveis">P. Dispositivos Móveis</Text>
+            <Text style={styles.tittleCourse} testID="TituloSI">SI - 2022.1</Text>
 
-            <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('TeacherList')}>
-              <Text style={styles.buttonText}>Saiba mais </Text>
+            <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('TeacherList')}testID="btnSaibaMais">
+              <Text style={styles.buttonText} >Saiba mais </Text>
             </TouchableOpacity>
         </View>
         </View>
          <View style={styles.box}>
         <View style={styles.card}>
-            <Text style={styles.tittleCourse}>Teste de Software</Text>
-            <Text style={styles.tittleCourse}>SI - 2022.1</Text>
+            <Text style={styles.tittleCourse} testID="TituloTesteDeSoftware" >Teste de Software</Text>
+            <Text style={styles.tittleCourse} testID="TituloSI2">SI - 2022.1</Text>
             
-            <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('TeacherList')}>
-              <Text style={styles.buttonText}>Saiba mais</Text>
+            <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('TeacherList')} testID="btnSaibaMais">
+              <Text style={styles.buttonText} >Saiba mais</Text>
             </TouchableOpacity>
         </View>
         </View>

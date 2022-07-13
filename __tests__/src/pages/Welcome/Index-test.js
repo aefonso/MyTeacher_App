@@ -16,16 +16,18 @@ describe('Testes de Inicialização e Exibição', () => {
 describe('Testes de Navegação', () => {
   it('Navegação de Welcome para CourseList', () => {
       const { getByText ,getByTestId} = render(<App />);
-
-      const botaoTituloAcessarParaSaberMais = (getByTestId("btnTituloAcessarParaSaberMais"));
-      fireEvent.press(botaoTituloAcessarParaSaberMais);
-      expect(getByText(" Alunos, lindos!!")).toBeTruthy();
       
-      const botao = (getByTestId("btnAcessar"));
-      fireEvent.press(botao);
-
+      fireEvent.press(getByTestId("btnAcessar"));
       expect(getByText("MyTeacher")).toBeTruthy();
-
   })
+})
+
+describe('Teste de Navegação Saiba Mais', () => {
+    it('Navegação de Acesse para saber mais para AboutStudents ', () => {
+        const {getByText, getByTestId} = render(<App />);
+
+        fireEvent.press(getByTestId("btnTituloAcessarParaSaberMais"));
+        expect(getByText(" Alunos, lindos!!")).toBeTruthy();
+    })
 })
 
