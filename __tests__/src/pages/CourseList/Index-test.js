@@ -19,7 +19,7 @@ describe('Testes de Exibição', () => {
 })
 
 //describe('Teste de Navegação Saiba Mais', () => {
-  //  it('Navegação de Saiba mais para AboutTeacher ', () => {
+  //  it('Navegação de Saiba mais para Teacher List ', () => {
     //    const {getByText, getByTestId} = render(<App />);
 
       //  fireEvent.press(getByTestId("btnSaibaMais"));
