@@ -13,23 +13,24 @@ export default function About() {
           source={{
             uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/96s5423d69u-34%3A32?alt=media&token=fd1cee2c-257e-4bb9-b4fc-7b2f164cc213",
           }}
+          testID="imageAluno"
         />
         </Animatable.View>
         <Animatable.View animation="fadeInUp" style={styles.header}>
-        <Text style={styles.Txt542}> Alunos, lindos!!</Text>
+        <Text style={styles.Txt542} testID="TituloAlunos"> Alunos, lindos!!</Text>
         
-        <Text style={styles.Txt124}>
+        <Text style={styles.Txt124} testID="descriptionApp">
         O MyTeacher é uma aplicativo onde busca facilitar a vida dos alunos do IFRN, onde seu principal objetivo é ter uma descrição das áreas de conhecimentos e os professores que fazem parte de cada uma.
 Assim um aluno pode buscar pelo professor que tem atuação na area de conhecimento a qual o aluno busca se desenvolver.
         </Text>
         
-        <Text style={styles.Txt125}>
+        <Text style={styles.Txt125} testID="nomeAlunos1">
           Afonso Henrique 
         </Text>
-        <Text style={styles.Txt125}>
+        <Text style={styles.Txt125} testID="nomeAlunos2">
          Carla Monik
         </Text>
-        <Text style={styles.Txt125}>
+        <Text style={styles.Txt125} testID="nomeAlunos3">
           Rafael Ribeiro
         </Text>
       
