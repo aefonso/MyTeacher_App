@@ -11,19 +11,7 @@ describe('Testes de Exibição', () => {
         expect(getByTestId("TituloListaCursos")).toBeTruthy();
         expect(getByTestId("TituloDispositosMoveis")).toBeTruthy();
         expect(getByTestId("TituloSI")).toBeTruthy();
-        //expect(getByTestId("btnSaibaMais")).toBeTruthy();
-        expect(getByTestId("TituloTesteDeSoftware")).toBeTruthy();
-        expect(getByTestId("TituloSI2")).toBeTruthy();
+        expect(getByTestId("btnSaibaMais")).toBeTruthy();
         
     })
 })
-
-//describe('Teste de Navegação Saiba Mais', () => {
-  //  it('Navegação de Saiba mais para Teacher List ', () => {
-    //    const {getByText, getByTestId} = render(<App />);
-
-      //  fireEvent.press(getByTestId("btnSaibaMais"));
-        //expect(getByText("MyTeacher")).toBeTruthy();
- //   })
-//}) 
-

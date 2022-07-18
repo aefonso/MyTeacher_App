@@ -22,9 +22,10 @@ export default function TeacherList() {
                 source={{
                   uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/cy5hoftk34h-39%3A7?alt=media&token=a27d6e28-971f-4ef5-9d38-7f78f9affe73",
                 }}
+                testID="ImageTeacher"
               />
               <Text style={styles.titleTeacher}>Bruno Gomes</Text>
-            <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('AboutTeacher')} testID="btnAboutTeacher">
+            <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('AboutTeacher')} testID="btnSaibaMaisTeacher">
               <Text style={styles.buttonText}>Saiba mais</Text>
             </TouchableOpacity>
         </View>

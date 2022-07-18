@@ -25,16 +25,7 @@ export default function CourseList() {
             </TouchableOpacity>
         </View>
         </View>
-         <View style={styles.box}>
-        <View style={styles.card}>
-            <Text style={styles.tittleCourse} testID="TituloTesteDeSoftware" >Teste De Software</Text>
-            <Text style={styles.tittleCourse} testID="TituloSI2">SI - 2022.1</Text>
-            
-            <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('TeacherList')} testID="btnSaibaMais">
-              <Text style={styles.buttonText} >Saiba mais</Text>
-            </TouchableOpacity>
-        </View>
-        </View>
+       
        </Animatable.View>
    </View>  
 
