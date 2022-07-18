@@ -12,7 +12,7 @@ describe('Testes de Exibição', () => {
         expect(getByTestId("imageTeacher1")).toBeTruthy();
         expect(getByTestId("nameTeacher")).toBeTruthy();
         expect(getByTestId("descriptionTeacher")).toBeTruthy();
-        //expect(getByTestId("ImageTeacher")).toBeTruthy();
+       
         
     })
 })
