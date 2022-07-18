@@ -15,3 +15,12 @@ describe('Testes de Exibição', () => {
         
     })
 })
+
+describe('Teste de Navegação Saiba Mais', () => {
+    it('Navegação de Saiba mais para TeacherList ', () => {
+        const { getByTestId} = render(<App />);
+        fireEvent.press(getByTestId("btnAcessar"))
+        fireEvent.press(getByTestId("btnSaibaMais"));
+        expect(getByTestId("TituloTeacherList")).toBeTruthy();
+    })
+}) 
