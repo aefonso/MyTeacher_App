@@ -27,7 +27,7 @@ export default function CourseList() {
         </View>
          <View style={styles.box}>
         <View style={styles.card}>
-            <Text style={styles.tittleCourse} testID="TituloTesteDeSoftware" >Teste de Software</Text>
+            <Text style={styles.tittleCourse} testID="TituloTesteDeSoftware" >Teste De Software</Text>
             <Text style={styles.tittleCourse} testID="TituloSI2">SI - 2022.1</Text>
             
             <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('TeacherList')} testID="btnSaibaMais">
