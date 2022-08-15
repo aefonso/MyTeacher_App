@@ -16,7 +16,7 @@ describe('Testes de Exibição', () => {
     })
 })
 
-describe('Teste de Navegação Saiba Mais', () => {
+describe('Teste de Navegação do botão Saiba Mais', () => {
     it('Navegação de Saiba mais para TeacherList ', () => {
         const { getByTestId} = render(<App />);
         fireEvent.press(getByTestId("btnAcessar"))
